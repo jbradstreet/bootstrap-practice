@@ -9,9 +9,30 @@
   <title>Bootstrap</title>
 </head>
 <body>
-<h1>Headline</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
-  
+
+<!-- this block will jump to different break points -->
+<div class="container">
+  <h1>Headline</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+</div>
+
+<!-- put image outside of container so it gets to full width of browser
+keep headline content within container so it stays in the section -->
+<header class="bgimage">
+  <div class="container">
+    <h1>Headline</h1>
+  </div>
+</header>
+
+
+
+<!-- this block is fluid, will adjust to full width when you resize window -->
+<div class="container-fluid">
+  <h1>Headline</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+</div>
+
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
